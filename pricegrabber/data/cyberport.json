@@ -1,0 +1,15 @@
+[
+    {"name": "Cyberport",
+     "url_regex": ".*(\\.|/)cyberport\\.de/.*",
+     "xpath": "//*[@id=\"productDetailOverview\"]/div[4]/div/div[2]/div[1]",
+     "tests": [
+             {"url": "https://www.cyberport.de/pc-und-zubehoer/software/microsoft/pdp/8031-02l/windows-10-pro-64-bit-sb-oem-vollversion.html",
+                "number-of-prices": 1,
+                "price-min": 10,
+                "price-max": 500,
+                "currency": "€"
+             }
+        ]
+    }
+
+]
