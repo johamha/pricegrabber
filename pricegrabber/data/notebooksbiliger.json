@@ -1,0 +1,14 @@
+[
+    {"name": "Notebooksbilliger",
+     "url_regex": ".*(\\.|/)notebooksbilliger\\.de/.*",
+     "xpath": "//*[@id=\"product_detail_price\"]/div[1]/span",
+     "tests": [
+             {"url": "https://www.notebooksbilliger.de/pc+hardware/festplatten+pc+hardware/interne+festplatten/western+digital+wd+red+6tb+35+zoll+sata+6gbs+256mb+473093",
+                "number-of-prices": 1,
+                "price-min": 10,
+                "price-max": 500,
+                "currency": "€"
+             }
+        ]
+    }
+]
