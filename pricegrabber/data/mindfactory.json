@@ -1,0 +1,15 @@
+[
+		{"name": "mindfactory",
+		 "url_regex": ".*(\\.|/)mindfactory\\.de/.*",
+		 "xpath": "//*[@id=\"priceCol\"]/div[2]",
+		 "tests": [
+				 {"url": "https://www.mindfactory.de/product_info.php/Microsoft-Windows-10-Home-64-Bit-Deutsch-DSP-SB_1008303.html",
+					"number-of-prices": 1,
+					"price-min": 10,
+					"price-max": 500,
+					"currency": "€"
+				 }
+			]
+		}
+
+]
